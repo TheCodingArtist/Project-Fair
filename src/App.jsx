@@ -12,7 +12,7 @@ function App() {
       <Routes>
   <Route path='/' element={<Home/>}/>
   <Route path='/login' element={<Auth/>}/>
-  <Route path='/register' element={<Auth/>}/>
+  <Route path='/register' element={<Auth insideRegister={true}/>}/>
   <Route path='/dashboard' element={<Dashboard/>}/>
   <Route path='/projects' element={<Projects/>}/>
       </Routes>

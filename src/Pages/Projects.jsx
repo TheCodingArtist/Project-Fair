@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import ProjectCard from '../components/projectCard'
 import { Col, Row   } from 'react-bootstrap'
+
 function Projects() {
   return (
     <>

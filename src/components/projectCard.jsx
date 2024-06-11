@@ -8,7 +8,7 @@ function projectCard() {
 
   return (
     <>
-     
+
      <Card  onClick={handleShow} className='shadow btn' >
        <Card.Img variant='top' height={'200px'} src=''/>
       <Card.Body>
